@@ -64,11 +64,49 @@ background-color: black;
 
 .banner-description{
   color: #000;
-  font-size: 150%;
-  margin-top: 15px;
+  font-size: 200%;
+  margin-top: 40px;
 }
 
-
+/*Hero banner*/
+.hero{
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/prayer\ group.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(60%);
+}
+.hero-content {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0.625rem;
+}
+.hero-title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.hero-subtitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 1rem;
+}
 
 /*About page styles*/
 .two-column-wrapper{
@@ -90,7 +128,6 @@ background-color: black;
   color: #f4511e;
   margin-bottom: 20px;
 }
-
 
 
 
