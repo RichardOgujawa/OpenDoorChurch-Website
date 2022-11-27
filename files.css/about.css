@@ -6,11 +6,14 @@
 
 .body-text{
 display: flex;
-font-family: "poppins", sans-serif;
+font-family: poppins;
 align-items: center;
+text-align: center;
 justify-content: center;
-margin-top: 250px;
+margin-top: 25px;
 }
+
+/*Navigation Bar*/
 nav {
   display: flex;
   justify-content: space-around;
@@ -49,6 +52,45 @@ background-color: black;
 .nav-links a.active{
   background-color: #f4511e;
 }
+
+/*Hero banner*/
+.banner-title{
+  color: #f4511e;
+  font-size: 400%;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  
+}
+
+.banner-description{
+  color: #000;
+  font-size: 150%;
+  margin-top: 15px;
+}
+
+
+
+/*About page styles*/
+.two-column-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  background-color: #D3D3D3;
+
+}
+
+.profile-image-wrapper img{
+  width: 100%;
+}
+
+.profile-content-wrapper{
+  padding: 30px;
+}
+.profile-content-wrapper h2{
+  color: #f4511e;
+  margin-bottom: 20px;
+}
+
 
 
 
